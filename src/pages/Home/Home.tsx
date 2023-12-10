@@ -6,57 +6,39 @@ import filter from '@/assets/filter.svg';
 interface Data {
   name: string;
   distance: number;
-  racks: { name: string; isReserved: boolean }[];
+  racks: { name: string }[];
 }
 
 const seed: Data[] = [
   {
     name: 'Warren College',
     distance: 100,
-    racks: [
-      { name: 'Rack 1', isReserved: false },
-      { name: 'Rack 2', isReserved: false },
-    ],
+    racks: [{ name: 'Rack 1' }, { name: 'Rack 2' }],
   },
   {
     name: 'Marshall College',
     distance: 300,
-    racks: [
-      { name: 'Rack 1', isReserved: false },
-      { name: 'Rack 2', isReserved: false },
-    ],
+    racks: [{ name: 'Rack 1' }, { name: 'Rack 2' }],
   },
   {
     name: 'Revelle College',
     distance: 600,
-    racks: [
-      { name: 'Rack 1', isReserved: false },
-      { name: 'Rack 2', isReserved: false },
-    ],
+    racks: [{ name: 'Rack 1' }, { name: 'Rack 2' }],
   },
   {
     name: 'Muir College',
     distance: 700,
-    racks: [
-      { name: 'Rack 1', isReserved: false },
-      { name: 'Rack 2', isReserved: false },
-    ],
+    racks: [{ name: 'Rack 1' }, { name: 'Rack 2' }],
   },
   {
     name: 'Sixth College',
     distance: 400,
-    racks: [
-      { name: 'Rack 1', isReserved: false },
-      { name: 'Rack 2', isReserved: false },
-    ],
+    racks: [{ name: 'Rack 1' }, { name: 'Rack 2' }],
   },
   {
     name: 'Seventh College',
     distance: 600,
-    racks: [
-      { name: 'Rack 1', isReserved: false },
-      { name: 'Rack 2', isReserved: false },
-    ],
+    racks: [{ name: 'Rack 1' }, { name: 'Rack 2' }],
   },
 ];
 

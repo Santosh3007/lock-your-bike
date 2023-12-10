@@ -2,10 +2,9 @@ import React from 'react';
 
 // Takes in rack name and reserved status
 
-const Rack = ({ name, isReserved }: { name: string; isReserved: boolean }) => {
+const Rack = ({ name }: { name: string }) => {
   const onClick = () => {
     alert('Your reservation will end in 10 minutes. Please reach the bike rack on time. Thank you!');
-    isReserved = true;
   };
 
   return (

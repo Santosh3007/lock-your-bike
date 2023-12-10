@@ -1,7 +1,7 @@
 import React from 'react';
 import Rack from '@/components/Rack/Rack';
 
-const College = ({ racks, name, distance }: { racks: { name: string; isReserved: boolean }[]; name: string; distance: number }) => {
+const College = ({ racks, name, distance }: { racks: { name: string }[]; name: string; distance: number }) => {
   return (
     <div>
       <div className=' flex flex-wrap items-center justify-between sm:flex-nowrap'>
@@ -14,7 +14,7 @@ const College = ({ racks, name, distance }: { racks: { name: string; isReserved:
       </div>
       <div className='m-1 items-center justify-between sm:flex-nowrap'>
         {racks.map(rack => (
-          <Rack key={rack.name} name={rack.name} isReserved={rack.isReserved} />
+          <Rack key={rack.name} name={rack.name} />
         ))}
       </div>
     </div>
