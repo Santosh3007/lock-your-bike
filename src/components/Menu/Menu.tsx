@@ -4,7 +4,7 @@ import lock from '@/assets/lock.svg';
 import find from '@/assets/find.svg';
 import warning from '@/assets/warning.svg';
 
-function classNames(...classes: any[]) {
+function classNames(...classes: string[]) {
   return classes.filter(Boolean).join(' ');
 }
 
